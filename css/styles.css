@@ -525,6 +525,17 @@ ol {
   gap: 24px;
 }
 .form-label {
+}
+.form-p {
+  margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.form-footer {
+  margin-left: 76px;
+}
+.form-input {
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
@@ -537,12 +548,23 @@ ol {
   border-radius: 4px;
   color: #ffffff;
 }
-.form-p {
-  margin-bottom: 16px;
+.form-input::placeholder {
+  color: #ffffff;
+}
+.form-button {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.form-footer {
-  margin-left: 76px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
 }

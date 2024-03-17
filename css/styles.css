@@ -577,7 +577,6 @@ ol {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 24px 24px 24px;
 }
 .modal-window {
   position: absolute;
@@ -591,6 +590,7 @@ ol {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 .modal-button {
   position: absolute;
@@ -614,6 +614,15 @@ ol {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
+}
+.modal-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 16px;
 }
 .svg-footer {
   margin-left: 16px;

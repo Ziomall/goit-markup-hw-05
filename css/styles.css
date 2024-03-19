@@ -690,6 +690,7 @@ ol {
 }
 .modal-checkbox {
   margin-bottom: 24px;
+  display: flex;
 }
 .modal-checkbox-input:visually-hidden {
 }

@@ -716,9 +716,8 @@ ol {
 .link-modal {
   color: #4d5ae5;
 }
-.modal-input svg {
-  fill: #4d5ae5;
-}
-.modal-checkbox-input svg {
-  fill: #4d5ae5;
+input[type="checkbox"]: .form-modal-label .modal-checkbox-input {
+  border: none;
+  background-color: #404bbf;
+  fill: #f4f4fd;
 }

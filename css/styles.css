@@ -692,8 +692,7 @@ ol {
   margin-bottom: 24px;
   display: flex;
 }
-.modal-checkbox-input:visually-hidden {
-}
+
 .modal-span {
   width: 16px;
   height: 16px;
@@ -721,6 +720,8 @@ input[type="checkbox"]: .form-modal-label .modal-checkbox-input {
   background-color: #404bbf;
   fill: #f4f4fd;
 }
-.form-modal-div:focus-within .modal-input {
+.form-modal-div:focus-within svg {
   fill: #4d5ae5;
+}
+.svg-ptaszek {
 }

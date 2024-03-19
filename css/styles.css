@@ -688,3 +688,8 @@ ol {
 .form-modal-label-text {
   margin-bottom: 16px;
 }
+.modal-checkbox {
+  margin-bottom: 24px;
+}
+.modal-checkbox-input:visually-hidden {
+}

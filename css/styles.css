@@ -721,3 +721,6 @@ input[type="checkbox"]: .form-modal-label .modal-checkbox-input {
   background-color: #404bbf;
   fill: #f4f4fd;
 }
+.form-modal-div:focus-within .modal-input {
+  fill: #4d5ae5;
+}
